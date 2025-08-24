@@ -3,7 +3,7 @@ import { useState, useMemo } from 'react';
 type Country = {
   name: { common: string };
   capital?: string[];
-  // population: number;
+  population: number;
   flags: { png: string };
 };
 
