@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
-import InputField, { InputFieldProps } from './InputField';
+import { useState } from 'react';
+import type { InputFieldProps } from './InputField';
+import InputField from './InputField';
 
 export default {
   title: 'Components/InputField',
