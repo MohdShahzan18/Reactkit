@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 
 // https://vite.dev/config/
-mport path from 'path';
+import path from 'path';
 import { fileURLToPath } from 'url';
 import { storybookTest } from '@storybook/addon-vitest/vitest-plugin';
 const dirname = path.dirname(fileURLToPath(import.meta.url));
